@@ -1,0 +1,173 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body {
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+}
+
+
+/* Navigation bar */
+#navbar {
+  background: #333;
+  color: #fff;
+  overflow: auto;
+}
+#navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+#navbar h2 {
+  float: left;
+  padding: 20px;
+}
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+#navbar ul li {
+  float: left;
+}
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+
+#showcase{
+  background: url(../Image/beans2.jpg) no-repeat center center/cover;
+  height: 900px;
+}
+#showcase .showcase-content{
+  color: #fff;
+  text-align: center;
+  padding-top: 250px;
+}
+#showcase .showcase-content h1{
+  font-size: 60px;
+  line-height: 1.7em;
+}
+#showcase .showcase-content p{
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+.shop-Buton {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 20px 50px;
+  text-decoration: none;
+  background: #f7c08a;
+  border-radius: 20px;
+  color:#fff;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.text-primary {
+  color: #f7c08a;
+}
+
+
+
+/*ova e NASLOVOT PRED IMINJATA NA GRADOVITE*/
+.main-naslov h2{
+  text-align: center;
+  padding: 50px;
+}
+/*END*/
+
+
+
+/* -----section (LEFT) Costa Rica------  */
+#home-info{
+  height: 400px;
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+}
+#home-info .info-img-left{
+  float: left;
+  width: 50%;
+  background: url(../ProductImage/costa-rican-coffee.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  min-height: 100%;
+}
+#home-info .info-content-left{
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: right;
+  overflow: hidden;
+}
+/*Univerzalka za kopce za kupuvanje kaj DRZAVITE*/
+.btn-light{  
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 15px;
+  text-decoration: none;
+  background: #f7c08a;
+  border-radius: 10px;
+  color:#fff;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+/*-----------end-------------------*/
+
+
+/* -----section (RIGHT) Brazil------  */
+#home-info .info-img-right{
+  float: right;
+  width: 50%;
+  background: url(../ProductImage/brazilian-coffee.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  min-height: 100%;
+}
+#home-info .info-content-right{
+  float: left;
+  width: 50%;
+  height: 100%;
+  text-align: left;
+  overflow: hidden;
+}
+/*-----------end-------------------*/
+
+
+/* -----section (LEFT) Ethiopian------  */
+#home-info .info-img-left2{
+  float: left;
+  width: 50%;
+  background: url(../ProductImage/ethiopian-coffee.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  min-height: 100%;
+}
+/*-----------end-------------------*/
+
+
+/* -----section (RIGHT) Indonesia------  */
+#home-info .info-img-right2{
+  float: right;
+  width: 50%;
+  background: url(../ProductImage/indonesian-coffee-cup.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  min-height: 100%;
+}
+/*-----------end-------------------*/
+
+
+
+/*Foother*/

@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body {
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Global za layout*/
+.itemCoffe{
+    max-width: 900px;
+    overflow: auto;
+    margin: auto;
+}
+
+.main-naslov {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.text-primary {
+    color: #f7c08a;
+}
+  
+
+
+
+.itemCoffe .conteinerOne {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.itemCoffe .item {
+    float: left;
+    text-align: center;
+    width: 33.33%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+
+/*Button*/
+.item button {
+    display: inline-block;
+    padding: 10px;
+    background: #f7c08a;
+    border-radius: 20px;
+    color:#fff;
+    font-size: 15px;
+    text-transform: uppercase;
+  }

@@ -1,0 +1,88 @@
+/*1. ova e pocetokot */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+
+}
+
+
+
+
+/*3. Scrolling effect
+= se dodva so "background-attachment: fixed;"
+*/
+.pimg1, .pimg2, .pimg3, .pimg4 {
+    position: relative;
+    opacity: 0.65;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+
+
+/*2. images */
+.pimg1{
+    background-image: url(../Image/cof5.jpg);
+    min-height: 100%;
+}
+.pimg2{
+    background-image: url(../Image/cof2.jpg);
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url(../Image/img5.jpg);
+    min-height: 400px;
+}
+.pimg4{
+    background-image: url(../Image/no5.jpeg);
+    min-height: 400px;
+}
+
+
+
+/*4. sections*/
+.section{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+.section-dark{
+    background-color: #515e6b;
+    color: #ddd;
+}
+
+
+
+/*5. tekst*/
+.ptext{
+    position: absolute;
+    top: 49%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.ptext .border{
+    background-color: #515e6b;
+    color: white;
+    padding: 20px;
+    border-radius: 25px;
+}
+
